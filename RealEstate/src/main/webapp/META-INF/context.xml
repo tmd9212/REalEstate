@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+<Resource
+
+name="jdbc/RealEstateDS"
+auth="Container"
+type="javax.sql.DataSource"
+driverClassName="org.mariadb.jdbc.Driver"
+url="jdbc:mariadb://localhost:3306/realestate_db"
+username="realestate"
+password="7777"
+        
+        
+/>
+</Context>

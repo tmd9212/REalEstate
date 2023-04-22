@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+
+        .mainForm_body {
+            background-color: #F7F7F7;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+        }
+        .mainForm_title {
+            text-align: center;
+            margin: 30px 0;
+        }
+        .mainForm_links {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .mainForm_link {
+			background-image: linear-gradient(to bottom right, #4B6CB7, #C1A25F);
+			color: #fff;
+			text-align: center;
+			width: 200px;
+			height: 100px;
+			margin: 10px;
+			padding: 10px;
+			border-radius: 10px;
+			transition: all 0.3s ease-in-out;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			font-size: 34px;
+		}
+        .mainForm_link:hover {
+            transform: scale(1.1);
+        }
+        .mainForm_link a {
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        .mainForm_slideBanner
+		{
+		width: 800px;
+		height: 400px;
+		background-color: #888;
+		margin: 0 auto;
+		}
+		 .mainForm_subWrapper {
+	        display: flex;
+	        height: 450px;
+	        width: 100%;
+	        max-width: 1000px;
+	        margin: 0 auto;
+			background-color: #f9f9f9;
+	        
+   		}
+		.mainForm_boardWrapper {
+	        width: 50%;
+	        height: 80%;
+	        background-color: #800;
+	        overflow-y: scroll;
+	        padding: 20px;
+	    }	
+	    .mainForm_mapWrapper {
+	        width: 50%;
+	        height: 80%;
+	        background-color: #1ff;
+	        padding: 20px;
+	    }	
+	    	
+        
